@@ -9,8 +9,8 @@ PHP script will send it back to client.
 PHP script and client side Javascript code are not included. 
 
 For quick testing just comment first four lines from worDaDe.py and generate game area with this:
-    ga = ['s', 'a', 's', 'e', 'e', 'm' ,'at', 'l', 's', 'h', 'e', 'c', 's', 'o', 'd', 'r']
-    gameArea = GameArea(ga)
+ga = ['s', 'a', 's', 'e', 'e', 'm' ,'at', 'l', 's', 'h', 'e', 'c', 's', 'o', 'd', 'r']
+gameArea = GameArea(ga)
 
 Vocabulary size is now (18-Aug-2016) 12k words, plenty of room for improvement. I've found that many 
 dictionaries available online contain a lot of rubbish, not real words, that'll just slow the search 
