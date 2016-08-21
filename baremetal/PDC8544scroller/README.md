@@ -27,3 +27,12 @@ GPIO pin
 1             3.3V <-> PDC8544 VCC
 9             GND <-> PDC8544 GND
 6             GND <-> UART ground
+
+Scroller message can be set with PuTTY via UART. Time can be set and queried via UART. PDC8544 shows the clock on the 
+bottom line and it's updated 20 times per second. This is actully the scroller update speed also. Have to admit it looks 
+a bit hazy. Slower update speed, 10/s looks better, but scrolling is slow. Menu on terminal SW looks like:
+ 1 - Set time
+ 2 - Get time now
+ 3 - Set scroll message
+ 4 - LCD backlight brighness
+ 
